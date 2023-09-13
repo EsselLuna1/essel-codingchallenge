@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+/*----------------
+general
+-----------------*/
+body, html {
+    background-color: hsl(0, 0%, 98%);
+    color: hsl(229, 6%, 66%);
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+/*----------------
+common
+-----------------*/
+.container {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+.title {
+    color: hsl(234, 12%, 34%);
+    font-size: 36px;
+    font-weight: 200;
+    text-align: center;
+}
+.title span {
+    display: block;
+    font-weight: 600;
+}
+.description {
+    font-weight: 400;
+    text-align: center;
+}
+.box {
+    display: flex;
+    margin: 60px auto;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+.sectionBlock {
+    width: 350px;
+    border-radius: 7px;
+    background-color: #ffff;
+    box-shadow: 0 5px 10px rgba(76, 78, 97, 0.1), 0 10px 20px rgba(76, 78, 97, 0.1);
+}
+.boxWrap {
+    padding: 30px;
+    /* text-align: right; */
+}
+.titleContent {
+    margin: 0;
+    font-size: 20px;
+    color: hsl(234, 12%, 34%);
+    margin-bottom: 10px;
+}
+.text01 {
+    font-size: 13px;
+}
+.boxWrap img {
+    margin-top: 50px;
+    margin-left: auto;
+    display: block;
+}
+.textContent {
+    text-align: left;
+}
+.box-middle {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.box1 {
+    border-top: 4px solid hsl(180, 62%, 55%);
+}
+.box2 {
+    border-top: 4px solid hsl(0, 78%, 62%);
+}
+.box3 {
+    border-top: 4px solid hsl(34, 97%, 64%);
+}
+.box4 {
+    border-top: 4px solid hsl(212, 86%, 64%);
+}
